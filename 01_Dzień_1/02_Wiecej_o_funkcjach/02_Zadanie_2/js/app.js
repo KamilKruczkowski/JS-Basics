@@ -12,3 +12,9 @@ callOtherFunction(function (a, b) {
   console.log("Wynik", a + b);
 });
 
+callOtherFunction(function (a, b) {
+  console.log("Pierwsza liczba pomnożona przez 4", a * 4);
+  console.log('Druga liczba pomnożona przez 2', b * 2);
+  console.log('Wynik ich sumy to', (a*4) + (b*2));
+});
+
